@@ -10,7 +10,23 @@ export default {
       'cookie':['Cookie'],
       'merienda':['Merienda'],
     },
-    extend: {},
+    extend: {
+      keyframes: {
+        bounceTwist: {
+          '0%, 100%': { transform: 'translateY(-10%) rotate(0deg)', opacity: '1' },
+          '50%': { transform: 'translateY(0) rotate(180deg)', opacity: '0.5' },
+        },
+        fadeInOut: {
+          '0%': { opacity: '0' },
+          '100%': { opacity: '1' },
+        },
+      },
+      animation: {
+        bounceTwist: 'bounceTwist 2s',
+        fadeInOut: 'fadeInOut 3s',
+      },
+    },
+  
   },
   plugins: [],
 }
