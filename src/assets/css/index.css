@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Cookie&family=Merienda:wght@300..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    .font-outline-2 {
+      -webkit-text-stroke: 0.2px black;
+    }
+    .font-outline-4 {
+      -webkit-text-stroke: 4px black;
+    }
+    .font-outline-white-2 {
+        -webkit-text-stroke: 0.2px white;
+      }
+  }
