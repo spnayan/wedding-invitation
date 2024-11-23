@@ -30,7 +30,7 @@ const Section2 = () => {
       <div className="flex flex-col items-center space-y-5 px-5 h-full justify-center text-center backdrop-blur-[4px]">
         <AnimatedSection>
         <h6 className="font-cookie text-[30px] md:text-[40px] text-white font-outline-2 ">
-          On saturday, 25 January 2025
+          On Saturday, 25 January 2025
         </h6>
     </AnimatedSection>
     <AnimatedSection initial={{opacity: 0, x: -50}}>

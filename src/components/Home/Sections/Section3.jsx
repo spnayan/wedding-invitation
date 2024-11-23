@@ -38,7 +38,7 @@ const Section3 = () => {
         <AnimatedSection initial={{opacity: 0, x: 50}}>
 
         <div className="flex flex-col space-y-3">
-        <div>
+        {/* <div>
           <h6 className="font-cookie text-[20px] md:text-[30px] text-white font-outline-2">
             Late. Trilochan Khatiwada
           </h6>
@@ -47,7 +47,7 @@ const Section3 = () => {
           <h6 className="font-cookie text-[20px] md:text-[30px] text-white font-outline-2">
             Late. Kashi Maya Khatiwada
           </h6>
-          </div>
+          </div> */}
           <div>
           <h6 className="font-cookie text-[20px] md:text-[30px] text-white font-outline-2">
             Shanti Ram Khatiwada
