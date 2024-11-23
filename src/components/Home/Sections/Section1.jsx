@@ -20,7 +20,7 @@ const Section1 = () => {
     <AnimatedSection initial={{opacity: 0, x: -50}}>
 
           <h1 className="font-cookie text-[30px] md:text-[40px] text-white font-outline-2 text-center text-wrap">
-            invite you to share our celebration of love and commitment
+            invite you to share the celebration of love and commitment
           </h1>
           </AnimatedSection>
         <AnimatedSection initial={{opacity: 0,x:50}} animateOption={{opacity: 1,x:0}}>

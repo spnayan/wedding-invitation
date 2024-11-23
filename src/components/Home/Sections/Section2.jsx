@@ -29,13 +29,13 @@ const Section2 = () => {
     <div className="h-screen flex justify-center items-center">
       <div className="flex flex-col items-center space-y-5 px-5 h-full justify-center text-center backdrop-blur-[4px]">
         <AnimatedSection>
-        <h6 className="font-cookie text-[20px] md:text-[30px] text-white font-outline-2 uppercase">
+        <h6 className="font-cookie text-[30px] md:text-[40px] text-white font-outline-2 ">
           On saturday, 25 January 2025
         </h6>
     </AnimatedSection>
     <AnimatedSection initial={{opacity: 0, x: -50}}>
 
-        <h6 className="font-cookie text-[20px] md:text-[30px] text-white font-outline-2 uppercase">
+        <h6 className="font-cookie text-[30px] md:text-[40px] text-white font-outline-2">
           5:30 pm onwards
         </h6>
         </AnimatedSection>
@@ -48,7 +48,7 @@ const Section2 = () => {
         </AnimatedSection>
     <AnimatedSection initial={{opacity: 0, x: 50}}>
 
-        <h6 className="font-cookie text-[20px] md:text-[30px] text-white font-outline-2 uppercase">
+        <h6 className="font-cookie text-[30px] md:text-[40px] text-white font-outline-2">
           Cockle Bay Wharf, 2 Wheat Rd, Sydney, NSW
         </h6>
         </AnimatedSection>
@@ -61,6 +61,12 @@ const Section2 = () => {
           <h6 className="font-cookie text-[20px] md:text-[30px] text-white font-outline-2">
             William 0452 453 363 | Bimala 0420 688 234
           </h6>
+        </div>
+        <div className="border">
+          <h6 className="font-cookie text-[20px] md:text-[30px] text-white font-outline-2">
+            No Boxed Gift Please
+          </h6>
+          
         </div>
         </AnimatedSection>
       </div>
