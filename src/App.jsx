@@ -22,6 +22,7 @@ function App() {
           width={window.innerWidth}
           height={window.innerHeight}
           recycle={false}
+          colors={['#FFFFFF']}
         />
       )}
       <div className='absolute z-20 w-full'>

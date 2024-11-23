@@ -43,13 +43,13 @@ const Section2 = () => {
         <AnimatedSection initial={{opacity: 0, y: 50}} animateOption={{opacity: 1, y: 0}}>
 
         <h1 className="font-allura text-[40px] md:text-[50px] text-white font-outline-2">
-          L 'Aqua Gold Room,Dockside,{" "}
+          L 'Aqua Gold Room,Dockside{" "}
         </h1>
         </AnimatedSection>
     <AnimatedSection initial={{opacity: 0, x: 50}}>
 
         <h6 className="font-cookie text-[30px] md:text-[40px] text-white font-outline-2">
-          Cockle Bay Wharf, 2 Wheat Rd, Sydney, NSW
+          Cockle Bay Wharf, 2 Wheat Rd, Sydney
         </h6>
         </AnimatedSection>
         <AnimatedSection initial={{opacity: 0, x: -50}}>
@@ -64,7 +64,7 @@ const Section2 = () => {
         </div>
         <div className="border">
           <h6 className="font-cookie text-[20px] md:text-[30px] text-white font-outline-2">
-            No Boxed Gift Please
+            No Boxed Gifts Please
           </h6>
           
         </div>
