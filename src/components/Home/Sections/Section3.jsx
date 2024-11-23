@@ -28,7 +28,7 @@ const Section3 = () => {
           </div>
           <div>
           <h6 className="font-cookie text-[20px] md:text-[30px] text-white font-outline-2">
-            Kim Ling Lim
+            Kim Ying Lim
           </h6>
           </div>          
         </div>
